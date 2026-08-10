@@ -1,0 +1,46 @@
+{
+  "name": "@sorb/tap",
+  "version": "0.1.0",
+  "description": "Sorb™ tap — a Model Context Protocol (MCP) server for design tokens. Point agents at a DTCG token file, a Sorb project, or a running Sorb bridge. (Tap: how agents draw from the tree.)",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "design-tokens",
+    "dtcg",
+    "sorb",
+    "figma",
+    "agents"
+  ],
+  "homepage": "https://github.com/metatoy/sorb-tap#readme",
+  "bugs": "https://github.com/metatoy/sorb-tap/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metatoy/sorb-tap.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "sorb-tap": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "examples"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test",
+    "prepublishOnly": "node build.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@sorb/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0"
+  }
+}

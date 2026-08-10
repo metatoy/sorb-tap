@@ -1,0 +1,8 @@
+{
+  "tokens": [
+    { "id": "semantic.brand.primary", "cssVar": "--semantic-brand-primary", "value": "#3b82f6", "tier": "semantic", "type": "color" },
+    { "id": "semantic.surface", "cssVar": "--semantic-surface", "value": "#fafafa", "tier": "semantic", "type": "color" },
+    { "id": "component.button.bg", "cssVar": "--component-button-bg", "value": "#3b82f6", "tier": "component", "type": "color" },
+    { "id": "primitive.space.md", "cssVar": "--primitive-space-md", "value": "16px", "tier": "primitive", "type": "dimension" }
+  ]
+}

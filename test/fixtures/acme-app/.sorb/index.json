@@ -1,0 +1,1 @@
+{ "stories": { "Button": { "artifact": ".sorb/Button.sorb.json" }, "Card": { "artifact": ".sorb/Card.sorb.json" }, "Escaped": { "artifact": "../outside.json" } } }

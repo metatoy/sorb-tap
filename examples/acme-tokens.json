@@ -1,0 +1,33 @@
+{
+  "primitive": {
+    "$type": "color",
+    "gray": {
+      "50": { "$value": "#fafafa" },
+      "900": { "$value": "#18181b" }
+    },
+    "blue": {
+      "500": { "$value": "#3b82f6" },
+      "700": { "$value": "#1d4ed8" }
+    },
+    "space": {
+      "$type": "dimension",
+      "sm": { "$value": "8px" },
+      "md": { "$value": "16px" }
+    }
+  },
+  "semantic": {
+    "$type": "color",
+    "brand": {
+      "primary": { "$value": "{primitive.blue.500}" },
+      "primary-strong": { "$value": "{primitive.blue.700}" }
+    },
+    "surface": { "$value": "{primitive.gray.50}" },
+    "ink": { "$value": "{primitive.gray.900}" }
+  },
+  "component": {
+    "button": {
+      "bg": { "$type": "color", "$value": "{semantic.brand.primary}" },
+      "padding": { "$type": "dimension", "$value": "{primitive.space.md}" }
+    }
+  }
+}

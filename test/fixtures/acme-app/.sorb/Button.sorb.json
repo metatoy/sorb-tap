@@ -1,0 +1,5 @@
+{ "stories": [ { "id": "Button", "root": {
+  "type": "FRAME", "name": "Button",
+  "sorb": { "tokens": { "fill": "component.button.bg" } },
+  "children": [ { "type": "TEXT", "name": "label", "sorb": { "tokens": { "padding": "primitive.space.md" } } } ]
+} } ] }

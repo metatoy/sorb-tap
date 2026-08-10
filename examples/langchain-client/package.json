@@ -1,0 +1,15 @@
+{
+  "name": "sorb-tap-langchain-example",
+  "private": true,
+  "type": "module",
+  "description": "Example: load @sorb/tap's MCP tools into a LangChain agent.",
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/langgraph": "^0.2.0",
+    "@langchain/mcp-adapters": "^0.4.0"
+  }
+}

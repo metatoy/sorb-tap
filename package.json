@@ -1,7 +1,7 @@
 {
   "name": "@sorb/tap",
   "version": "0.1.0",
-  "description": "Sorb™ tap — a Model Context Protocol (MCP) server for design tokens. Point agents at a DTCG token file, a Sorb project, or a running Sorb bridge. (Tap: how agents draw from the tree.)",
+  "description": "Sorb\u2122 tap \u2014 a Model Context Protocol (MCP) server for design tokens. Point agents at a DTCG token file, a Sorb project, or a running Sorb bridge. (Tap: how agents draw from the tree.)",
   "license": "MIT",
   "type": "module",
   "keywords": [
@@ -34,7 +34,9 @@
   "scripts": {
     "build": "node build.mjs",
     "test": "node --test",
-    "prepublishOnly": "node build.mjs"
+    "prepublishOnly": "node build.mjs",
+    "pretest": "node scripts/check-no-ts.mjs",
+    "prebuild": "node scripts/check-no-ts.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",

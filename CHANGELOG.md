@@ -34,3 +34,6 @@ First cut. Read-only by design.
 - README with 60-second Claude Code quickstart + demo GIF, GitHub Actions CI,
   no-TypeScript guard (JS only), esbuild build, 17 `node:test` cases including
   a stub bridge.
+
+[Unreleased]: https://github.com/metatoy/sorb-tap/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/metatoy/sorb-tap/releases/tag/v0.1.0

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="@sorb/tap — design tokens on tap for AI agents; an MCP server for the Sorb design system">
+  
+  <rect width="1200" height="280" fill="#0E0C0A"></rect>
+
+  
+  <g font-family="ui-monospace, &#39;SF Mono&#39;, Menlo, Consolas, monospace" font-size="15" letter-spacing="0.5">
+    <rect x="371" y="70" width="140" height="36" rx="9" fill="rgba(242,103,34,0.08)" stroke="rgba(242,103,34,0.45)" stroke-width="1"></rect>
+    <text x="441" y="93" text-anchor="middle" fill="#F26722">var(--brand)</text>
+    <rect x="525" y="70" width="150" height="36" rx="9" fill="rgba(242,103,34,0.08)" stroke="rgba(242,103,34,0.45)" stroke-width="1"></rect>
+    <text x="600" y="93" text-anchor="middle" fill="#F26722">var(--radius)</text>
+    <rect x="689" y="70" width="140" height="36" rx="9" fill="rgba(242,103,34,0.08)" stroke="rgba(242,103,34,0.45)" stroke-width="1"></rect>
+    <text x="759" y="93" text-anchor="middle" fill="#F26722">var(--space)</text>
+  </g>
+
+  
+  <text x="600" y="172" text-anchor="middle" font-family="ui-monospace, &#39;SF Mono&#39;, Menlo, Consolas, monospace" font-size="36" font-weight="600" letter-spacing="1" fill="#F5F2ED">@sorb/tap</text>
+
+  
+  <text x="600" y="208" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="15" letter-spacing="0.4" fill="#A99F94">Design tokens on tap for AI agents — an MCP server for the Sorb design system</text>
+
+  
+  <line x1="480" y1="236" x2="720" y2="236" stroke="rgba(242,103,34,0.5)" stroke-width="1"></line>
+</svg>
